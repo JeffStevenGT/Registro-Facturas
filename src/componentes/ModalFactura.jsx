@@ -28,12 +28,12 @@ export const ModalFactura = ({ mostrar, onCerrar, onAgregar }) => {
           <h2 className="text-2xl font-bold text-gray-800">
             Agregar Nueva Factura
           </h2>
-          <button
+          {/* <button
             onClick={onCerrar}
             className="text-gray-500 hover:text-gray-700 text-xl"
           >
             &times;
-          </button>
+          </button> */}
         </div>
 
         <form onSubmit={manejarSubmit} className="space-y-4">
@@ -78,7 +78,7 @@ export const ModalFactura = ({ mostrar, onCerrar, onAgregar }) => {
               <option value="pendiente" className="text-sm">
                 Pendiente
               </option>
-              <option value="pagada" className="text-sm">
+              <option value="pagada" className="text-xl">
                 Pagada
               </option>
             </select>

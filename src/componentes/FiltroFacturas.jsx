@@ -3,7 +3,7 @@ import { datosFacturas } from "../datos/datosIniciales";
 import { TablaFacturas } from "./TablaFacturas";
 import { ModalFactura } from "./ModalFactura";
 
-export const ListaFacturas = () => {
+export const FiltroFacturas = () => {
   const [facturas, setFacturas] = useState(datosFacturas);
   const [mostrarModal, setMostrarModal] = useState(false);
   const [filtro, setFiltro] = useState("todos");
